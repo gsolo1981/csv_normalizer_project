@@ -1,0 +1,33 @@
+==================================================
+Procesando SIGAF Internos: data\SIGAF_CONSULTA_1202506121604.csv
+✓ Procesado exitosamente: SIGAF_CONSULTA_1202506121604.csv (10013 registros)
+Procesando MIA: data\MIA_CONSULTA_1202506121540.csv
+✓ Procesado exitosamente: MIA_CONSULTA_1202506121540.csv (110450 registros)
+Procesando SIGAF Externos: data\SIGAF_CONSULTA_2202506121605.csv
+✓ Procesado exitosamente: SIGAF_CONSULTA_2202506121605.csv (23470 registros)
+Procesando BAC Externos: data\bac mails2.csv
+✓ Procesado exitosamente: bac mails2.csv (39074 registros)
+Procesando BAC Internos: data\mails bac1.csv
+✓ Procesado exitosamente: mails bac1.csv (6481 registros)
+Limpiando datos...
+==================================================
+Datos consolidados exitosamente
+✓ Archivo Excel guardado exitosamente: consolidated_data.xlsx
+Total de registros: 189488
+
+Resumen por aplicación:
+  - BAC Externos: 39074 registros
+  - BAC Internos: 6481 registros
+  - MIA: 110450 registros
+  - SIGAF Externos: 23470 registros
+  - SIGAF Internos: 10013 registros
+==================================================
+Proceso completado exitosamente!
+
+Muestra de los primeros 5 registros:
+                    fullname                              email      user     application C_JURIS                     XL_INSTITUCION C_UNID_EJEC           XL_UNID_EJEC
+0  BORRELLI DANIELA FERNANDA       dborrelli@buenosaires.gob.ar  BORRELLI  SIGAF Internos      60  MINISTERIO DE HACIENDA y FINANZAS         614  DIR.GRAL.DE TESORERIA
+1           ASTORGA GABRIELA        gastorga@buenosaires.gob.ar  GASTORGA  SIGAF Internos      60  MINISTERIO DE HACIENDA y FINANZAS         614  DIR.GRAL.DE TESORERIA
+2                 RAMOS JOSE       joseramos@buenosaires.gob.ar    JRAMOS  SIGAF Internos      60  MINISTERIO DE HACIENDA y FINANZAS         614  DIR.GRAL.DE TESORERIA
+3    MORALES LUCIANA SOLEDAD  lucianamorales@buenosaires.gob.ar  LMORALES  SIGAF Internos      60  MINISTERIO DE HACIENDA y FINANZAS         614  DIR.GRAL.DE TESORERIA
+4      FARAH CLAUDIA MARCELA          cfarah@buenosaires.gob.ar     FARAH  SIGAF Internos      60  MINISTERIO DE HACIENDA y FINANZAS         614  DIR.GRAL.DE TESORERIA
