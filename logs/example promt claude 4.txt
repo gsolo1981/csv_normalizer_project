@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Necesito desarrollar un proyecto python donde tengo como input 5 archivos con formato csv y xlsx, con distinta estructura de columnas y necesito generar como salida un nuevo xlsx con la normalización de las columnas que necesito y que te voy a ir guiando en el armado. 
 Los input deben estar en una carpeta llamad data.
 Los csv son:
@@ -69,3 +70,76 @@ campo 8 XL_UNID_EJEC
 
 
 
+=======
+Necesito desarrollar un proyecto python donde tengo como input 5 archivos con formato csv y xlsx, con distinta estructura de columnas y necesito generar como salida un nuevo xlsx con la normalización de las columnas que necesito y que te voy a ir guiando en el armado. 
+Los input deben estar en una carpeta llamad data.
+Los csv son:
+SIGAF_CONSULTA_1-202506121604.csv
+campo 1 XC_USER
+campo 2 XL_EMAIL
+campo 3 XC_USER
+campo 4 fijo SIGAF Internos
+campo 5 "C_JURIS"
+campo 6 "XL_INSTITUCION"
+campo 7 "C_UNID_EJEC"
+campo 8 "XL_UNID_EJEC"
+
+
+ MIA_CONSULTA_1-202506121540.csv
+campo 1 uni FirstName y LastName y llamalos FullName
+campo 2 Email
+Campo 3 UserName
+Campo 4 Aplicacion y el valor sera fijo para todas las columnas como MIA
+campo 5 NULL
+campo 6 NULL
+campo 7 NULL
+campo 8 NULL
+
+
+SIGAF_CONSULTA_1-202506121604.csv
+ya podes intuir de acuerdo al csv anterior los tres primeros campos y el 4 campo el valor sera SIGAF EXTERNOS.
+
+SIGAF_CONSULTA_2-202506121605.csv
+Campo 1 XL_ENTE 
+Campo 2 XL_MAIL
+Campo 3 N_CUIT
+Campo 4 fijo va ser SIGAF Externos.
+campo 5 NULL
+campo 6 NULL
+campo 7 NULL
+campo 8 NULL
+
+bac mails2.csv
+campo 1 Nombre Apellido (RazonSocial)
+campo 2 LoweredEmail
+campo 3 usuario
+campo 4 fijo va BAC EXTERNOS
+campo 5 NULL
+campo 6 NULL
+campo 7 NULL
+campo 8 NULL
+
+mails bac1.csv
+campo 1 Nombre Apellido (RazonSocial)
+campo 2 LoweredEmail
+campo 3 usuario
+campo 4 fijo va BAC Internos
+campo 5 NULL
+campo 6 NULL
+campo 7 NULL
+campo 8 NULL
+
+la salida sera un csv con los siguientes nombres de campos
+campo 1 fullname
+campo 2 email
+campo 3 user
+campo 4 aplication
+campo 5 C_JURIS
+campo 6 XL_INSTITUCION
+campo 7 C_UNID_EJEC
+campo 8 XL_UNID_EJEC
+
+
+
+
+>>>>>>> ed20375 (Implement CSV normalization process for multiple input files, including SIGAF, MIA, and BAC data. Add functionality to read, process, and consolidate data into a single Excel output. Update requirements and add logging for successful processing and error handling.)

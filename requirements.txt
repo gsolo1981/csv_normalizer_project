@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 pandas>=2.0.0
 openpyxl>=3.1.0
+=======
+pandas>=2.0.0
+openpyxl>=3.1.0
+>>>>>>> ed20375 (Implement CSV normalization process for multiple input files, including SIGAF, MIA, and BAC data. Add functionality to read, process, and consolidate data into a single Excel output. Update requirements and add logging for successful processing and error handling.)
 numpy>=1.24.0
